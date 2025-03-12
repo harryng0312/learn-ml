@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="af375678-575d-4b0b-8b92-523086995afd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/1. Standard notations for Deep Learning.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/2. Binary_Classification.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/3. Logistic_Regression.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/4. Logistic_Regression_Cost_Function.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/C1_W1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/C1_W2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/C1_W3.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/C1_W4.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/DeepNeuralNetworkAndApplication/W4A1/.hidden" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/DeepNeuralNetworkAndApplication/W4A1/Building_your_Deep_Neural_Network_Step_by_Step.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/DeepNeuralNetworkAndApplication/W4A1/dnn_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/DeepNeuralNetworkAndApplication/W4A1/images/2layerNN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/DeepNeuralNetworkAndApplication/W4A1/images/NlayerNN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/DeepNeuralNetworkAndApplication/W4A1/images/backpass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/DeepNeuralNetworkAndApplication/W4A1/images/backprop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/DeepNeuralNetworkAndApplication/W4A1/images/backprop_kiank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/DeepNeuralNetworkAndApplication/W4A1/images/final outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/DeepNeuralNetworkAndApplication/W4A1/images/imvector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/DeepNeuralNetworkAndApplication/W4A1/images/linearback_kiank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/DeepNeuralNetworkAndApplication/W4A1/images/mn_backward.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/DeepNeuralNetworkAndApplication/W4A1/images/model_architecture2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/DeepNeuralNetworkAndApplication/W4A1/images/model_architecture_kiank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/DeepNeuralNetworkAndApplication/W4A1/images/n_model_backward.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/DeepNeuralNetworkAndApplication/W4A1/images/nm_backward.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/DeepNeuralNetworkAndApplication/W4A1/images/relu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/DeepNeuralNetworkAndApplication/W4A1/images/structure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/DeepNeuralNetworkAndApplication/W4A1/public_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/DeepNeuralNetworkAndApplication/W4A1/testCases.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/DeepNeuralNetworkAndApplication/W4A1/test_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/DeepNeuralNetworkAndApplication/W4A2/.hidden" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/DeepNeuralNetworkAndApplication/W4A2/.hidden.save" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/DeepNeuralNetworkAndApplication/W4A2/Deep Neural Network - Application.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/DeepNeuralNetworkAndApplication/W4A2/datasets/test_catvnoncat.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/DeepNeuralNetworkAndApplication/W4A2/datasets/train_catvnoncat.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/DeepNeuralNetworkAndApplication/W4A2/dnn_app_utils_v3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/DeepNeuralNetworkAndApplication/W4A2/images/2layerNN_kiank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/DeepNeuralNetworkAndApplication/W4A2/images/LlayerNN_kiank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/DeepNeuralNetworkAndApplication/W4A2/images/imvector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/DeepNeuralNetworkAndApplication/W4A2/images/imvectorkiank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/DeepNeuralNetworkAndApplication/W4A2/images/my_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/DeepNeuralNetworkAndApplication/W4A2/public_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/DeepNeuralNetworkAndApplication/W4A2/test_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/nn-from-scratch/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/nn-from-scratch/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/nn-from-scratch/ann_classification.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/nn-from-scratch/nn-3-layer-network.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/nn-from-scratch/nn-from-scratch.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/nn-from-scratch/nn_from_scratch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/nn-from-scratch/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deeplearning/nn-from-scratch/simple_classification.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab02/C1_W2_Lab02_Multiple_Variable_Soln.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab02/C1_W2_Lab03_Feature_Scaling_and_Learning_Rate_Soln.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab02/C1_W2_Lab04_FeatEng_PolyReg_Soln.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab02/data/houses.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab02/deeplearning.mplstyle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab02/lab_utils_common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab02/lab_utils_multi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C1W2A1/C1_W2_Lab02_Multiple_Variable_Soln.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C1W2A1/C1_W2_Lab03_Feature_Scaling_and_Learning_Rate_Soln.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C1W2A1/C1_W2_Lab04_FeatEng_PolyReg_Soln.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C1W2A1/C1_W2_Linear_Regression.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C1W2A1/data/ex1data1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C1W2A1/data/ex1data2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C1W2A1/data/houses.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C1W2A1/deeplearning.mplstyle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C1W2A1/lab_utils_common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C1W2A1/lab_utils_multi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C1W2A1/public_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C1W2A1/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C1W3A1/C1_W3_Logistic_Regression.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C1W3A1/archive/.ipynb_checkpoints/C1_W3_Logistic_Regression-Copy1-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C1W3A1/archive/C1_W3_Logistic_Regression-Copy1.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C1W3A1/data/ex2data1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C1W3A1/data/ex2data2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C1W3A1/images/figure 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C1W3A1/images/figure 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C1W3A1/images/figure 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C1W3A1/images/figure 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C1W3A1/images/figure 5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C1W3A1/images/figure 6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C1W3A1/public_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C1W3A1/test_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C1W3A1/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C2W1A1/.ipynb_checkpoints/C2_W1_Assignment-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C2W1A1/C2_W1_Assignment.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C2W1A1/archive/.ipynb_checkpoints/C2_W1_Assignment-Copy1-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C2W1A1/archive/C2_W1_Assignment-Copy1.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C2W1A1/autils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C2W1A1/data/X.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C2W1A1/data/y.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C2W1A1/public_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C2W1A1/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C2W2A1/.ipynb_checkpoints/C2_W2_Assignment-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C2W2A1/C2_W2_Assignment.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C2W2A1/autils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C2W2A1/data/X.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C2W2A1/data/y.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C2W2A1/deeplearning.mplstyle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C2W2A1/lab_utils_common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C2W2A1/lab_utils_softmax.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C2W2A1/logs/train/events.out.tfevents.1645828646.ed92f2b0de47.31.186.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C2W2A1/logs/train/events.out.tfevents.1645828646.ed92f2b0de47.profile-empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C2W2A1/logs/train/events.out.tfevents.1647805546.30f1e0ee4ffd.31.186.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C2W2A1/logs/train/plugins/profile/2022-02-25_22-37-26/local.trace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C2W2A1/logs/train/plugins/profile/2022-03-20_19-45-46/local.trace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C2W2A1/public_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C2W3A1/.ipynb_checkpoints/C2_W3_Assignment-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C2W3A1/C2_W3_Assignment.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C2W3A1/assigment_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C2W3A1/deeplearning.mplstyle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C2W3A1/public_tests_a1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C2W3A1/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C2W4A1/.ipynb_checkpoints/C2_W4_Decision_Tree_with_Markdown-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C2W4A1/C2_W4_Decision_Tree_with_Markdown.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C2W4A1/public_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W2/C3W2A1/C3_W2_Collaborative_RecSys_Assignment.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W2/C3W2A1/data/small_movie_list.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W2/C3W2A1/data/small_movies_R.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W2/C3W2A1/data/small_movies_W.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W2/C3W2A1/data/small_movies_X.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W2/C3W2A1/data/small_movies_Y.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W2/C3W2A1/data/small_movies_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W2/C3W2A1/images/ColabFilterLearn.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W2/C3W2A1/images/ColabFilterUse.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W2/C3W2A1/images/RecSysNN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W2/C3W2A1/images/distmatrix.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W2/C3W2A1/images/film_award.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W2/C3W2A1/images/film_filter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W2/C3W2A1/images/film_man_action.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W2/C3W2A1/images/film_movie_camera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W2/C3W2A1/images/film_rating.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W2/C3W2A1/images/film_reel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W2/C3W2A1/images/film_strip_vertical.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W2/C3W2A1/images/movie_camera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W2/C3W2A1/public_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W2/C3W2A1/recsys_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W2/C3W2A2/C3_W2_RecSysNN_Assignment.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W2/C3W2A2/data/content_item_train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W2/C3W2A2/data/content_item_train_header.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W2/C3W2A2/data/content_item_vecs.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W2/C3W2A2/data/content_movie_list.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W2/C3W2A2/data/content_user_to_genre.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W2/C3W2A2/data/content_user_train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W2/C3W2A2/data/content_user_train_header.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W2/C3W2A2/data/content_y_train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W2/C3W2A2/images/ColabFilterLearn.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W2/C3W2A2/images/ColabFilterUse.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W2/C3W2A2/images/RecSysNN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W2/C3W2A2/images/distmatrix.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W2/C3W2A2/images/film_award.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W2/C3W2A2/images/film_filter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W2/C3W2A2/images/film_man_action.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W2/C3W2A2/images/film_movie_camera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W2/C3W2A2/images/film_rating.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W2/C3W2A2/images/film_reel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W2/C3W2A2/images/film_strip_vertical.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W2/C3W2A2/images/movie_camera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W2/C3W2A2/public_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W2/C3W2A2/recsysNN_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W3A1/C3_W3_A1_Assignment.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W3A1/images/deep_q_algorithm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W3A1/images/lunar_lander.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W3A1/images/rl_formalism.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W3A1/lunar_lander_model.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W3A1/public_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W3A1/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W3A1/videos/lunar_lander.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C3W3A1/videos/rl_formalism.m4v" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C5W3A1/.ipynb_checkpoints/Neural_machine_translation_with_attention_v4a-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C5W3A1/Neural_machine_translation_with_attention_v4a.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C5W3A1/Neural_machine_translation_with_attention_v4a_2.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C5W3A1/generateTestCases.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C5W3A1/images/attn_mechanism.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C5W3A1/images/attn_model.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C5W3A1/images/date_attention.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C5W3A1/images/date_attention2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C5W3A1/images/poorly_trained_model.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C5W3A1/images/table.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C5W3A1/models/model.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C5W3A1/nmt_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/SupervisorLearning/C5W3A1/test_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnivariateLinearRegressionLab/Lab01_Cost_Function.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnivariateLinearRegressionLab/Lab01_Gradient_Descent.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnivariateLinearRegressionLab/Lab01_Model_Representation.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnivariateLinearRegressionLab/deeplearning.mplstyle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnivariateLinearRegressionLab/lab_utils_common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnivariateLinearRegressionLab/lab_utils_uni.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnsupervisorLearning/C3_W1/anomaly_dection/home/jovyan/work/.ipynb_checkpoints/C3_W1_Anomaly_Detection-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnsupervisorLearning/C3_W1/anomaly_dection/home/jovyan/work/C3_W1_Anomaly_Detection.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnsupervisorLearning/C3_W1/anomaly_dection/home/jovyan/work/data/X_part1.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnsupervisorLearning/C3_W1/anomaly_dection/home/jovyan/work/data/X_part2.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnsupervisorLearning/C3_W1/anomaly_dection/home/jovyan/work/data/X_val_part1.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnsupervisorLearning/C3_W1/anomaly_dection/home/jovyan/work/data/X_val_part2.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnsupervisorLearning/C3_W1/anomaly_dection/home/jovyan/work/data/y_val_part1.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnsupervisorLearning/C3_W1/anomaly_dection/home/jovyan/work/data/y_val_part2.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnsupervisorLearning/C3_W1/anomaly_dection/home/jovyan/work/images/figure1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnsupervisorLearning/C3_W1/anomaly_dection/home/jovyan/work/images/figure2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnsupervisorLearning/C3_W1/anomaly_dection/home/jovyan/work/images/figure3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnsupervisorLearning/C3_W1/anomaly_dection/home/jovyan/work/public_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnsupervisorLearning/C3_W1/anomaly_dection/home/jovyan/work/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnsupervisorLearning/C3_W1/assignment/home/jovyan/work/.ipynb_checkpoints/C3_W1_KMeans_Assignment-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnsupervisorLearning/C3_W1/assignment/home/jovyan/work/C3_W1_KMeans_Assignment.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnsupervisorLearning/C3_W1/assignment/home/jovyan/work/bird_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnsupervisorLearning/C3_W1/assignment/home/jovyan/work/data/ex7_X.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnsupervisorLearning/C3_W1/assignment/home/jovyan/work/images/bird_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnsupervisorLearning/C3_W1/assignment/home/jovyan/work/images/figure 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnsupervisorLearning/C3_W1/assignment/home/jovyan/work/images/figure 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnsupervisorLearning/C3_W1/assignment/home/jovyan/work/images/figure 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnsupervisorLearning/C3_W1/assignment/home/jovyan/work/public_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnsupervisorLearning/C3_W1/assignment/home/jovyan/work/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnsupervisorLearning/C3_W2/CollaborativeRecSys/home/jovyan/work/.ipynb_checkpoints/C3_W2_Collaborative_RecSys_Assignment-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnsupervisorLearning/C3_W2/CollaborativeRecSys/home/jovyan/work/C3_W2_Collaborative_RecSys_Assignment.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnsupervisorLearning/C3_W2/CollaborativeRecSys/home/jovyan/work/data/small_movie_list.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnsupervisorLearning/C3_W2/CollaborativeRecSys/home/jovyan/work/data/small_movies_R.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnsupervisorLearning/C3_W2/CollaborativeRecSys/home/jovyan/work/data/small_movies_W.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnsupervisorLearning/C3_W2/CollaborativeRecSys/home/jovyan/work/data/small_movies_X.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnsupervisorLearning/C3_W2/CollaborativeRecSys/home/jovyan/work/data/small_movies_Y.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnsupervisorLearning/C3_W2/CollaborativeRecSys/home/jovyan/work/data/small_movies_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnsupervisorLearning/C3_W2/CollaborativeRecSys/home/jovyan/work/images/ColabFilterLearn.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnsupervisorLearning/C3_W2/CollaborativeRecSys/home/jovyan/work/images/ColabFilterUse.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnsupervisorLearning/C3_W2/CollaborativeRecSys/home/jovyan/work/images/RecSysNN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnsupervisorLearning/C3_W2/CollaborativeRecSys/home/jovyan/work/images/distmatrix.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnsupervisorLearning/C3_W2/CollaborativeRecSys/home/jovyan/work/images/film_award.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnsupervisorLearning/C3_W2/CollaborativeRecSys/home/jovyan/work/images/film_filter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnsupervisorLearning/C3_W2/CollaborativeRecSys/home/jovyan/work/images/film_man_action.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnsupervisorLearning/C3_W2/CollaborativeRecSys/home/jovyan/work/images/film_movie_camera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnsupervisorLearning/C3_W2/CollaborativeRecSys/home/jovyan/work/images/film_rating.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnsupervisorLearning/C3_W2/CollaborativeRecSys/home/jovyan/work/images/film_reel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnsupervisorLearning/C3_W2/CollaborativeRecSys/home/jovyan/work/images/film_strip_vertical.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnsupervisorLearning/C3_W2/CollaborativeRecSys/home/jovyan/work/images/movie_camera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnsupervisorLearning/C3_W2/CollaborativeRecSys/home/jovyan/work/public_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearning/UnsupervisorLearning/C3_W2/CollaborativeRecSys/home/jovyan/work/recsys_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Salary_dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practise-ml/data/regression/salary_dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practise-ml/data/regression/winequality-red.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practise-ml/data/regression/winequality-red_2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practise-ml/modules/conf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practise-ml/modules/core.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practise-ml/notebook/Wine ML model.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practise-ml/notebook/linear_regression_salary.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practise-ml/notebook/logistic_regression_winequality.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practise-ml/notebook/logistic_regression_winequality_2.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practise-ml/notebook/main2.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practise-ml/notebook/main3.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A1/.ipynb_checkpoints/Building_a_Recurrent_Neural_Network_Step_by_Step-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A1/Building_a_Recurrent_Neural_Network_Step_by_Step.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A1/generateTestCases.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A1/images/LSTM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A1/images/LSTM_cell_backward_rev3a_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A1/images/LSTM_cell_backward_rev3a_c2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A1/images/LSTM_figure4_v3a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A1/images/LSTM_rnn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A1/images/RNN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A1/images/initial_state.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A1/images/old_rnn_cell_backward_3a_c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A1/images/rnn_backward_overview_3a_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A1/images/rnn_cell_backprop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A1/images/rnn_cell_backward_3a_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A1/images/rnn_cell_backward_3a_c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A1/images/rnn_forward_sequence_figure3_v3a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A1/images/rnn_step_forward.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A1/images/rnn_step_forward_figure2_v3a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A1/public_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A1/rnn_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A1/test_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A1/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A2/Dinosaurus_Island_Character_level_language_model.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A2/dinos.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A2/generateTestCases.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A2/images/clip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A2/images/dino.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A2/images/dinos3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A2/images/mangosaurus.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A2/images/rnn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A2/images/shakespeare.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A2/models/model_shakespeare_kiank.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A2/models/model_shakespeare_kiank_350_epoch.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A2/shakespeare.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A2/shakespeare_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A2/test_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A2/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A3/Improvise_a_Jazz_Solo_with_an_LSTM_Network_v4.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A3/data/30s_seq.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A3/data/30s_trained_model.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A3/data/deepjazz_on_metheny...128_epochs.midi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A3/data/original_metheny.mid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A3/data/training_example.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A3/data_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A3/generateTestCases.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A3/grammar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A3/images/jazz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A3/images/model.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A3/images/music_gen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A3/images/music_generation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A3/inference_code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A3/midi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A3/music_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A3/outputs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A3/preprocess.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A3/qa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/C5W1A3/test_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A1/.ipynb_checkpoints/Building_a_Recurrent_Neural_Network_Step_by_Step-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A1/Building_a_Recurrent_Neural_Network_Step_by_Step.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A1/generateTestCases.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A1/images/LSTM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A1/images/LSTM_cell_backward_rev3a_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A1/images/LSTM_cell_backward_rev3a_c2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A1/images/LSTM_figure4_v3a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A1/images/LSTM_rnn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A1/images/RNN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A1/images/initial_state.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A1/images/old_rnn_cell_backward_3a_c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A1/images/rnn_backward_overview_3a_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A1/images/rnn_cell_backprop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A1/images/rnn_cell_backward_3a_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A1/images/rnn_cell_backward_3a_c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A1/images/rnn_forward_sequence_figure3_v3a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A1/images/rnn_step_forward.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A1/images/rnn_step_forward_figure2_v3a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A1/public_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A1/rnn_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A1/test_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A1/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A2/Dinosaurus_Island_Character_level_language_model.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A2/dinos.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A2/generateTestCases.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A2/images/clip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A2/images/dino.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A2/images/dinos3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A2/images/mangosaurus.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A2/images/rnn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A2/images/shakespeare.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A2/models/model_shakespeare_kiank.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A2/models/model_shakespeare_kiank_350_epoch.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A2/shakespeare.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A2/shakespeare_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A2/test_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A2/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A3/Improvise_a_Jazz_Solo_with_an_LSTM_Network_v4.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A3/data_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A3/generateTestCases.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A3/grammar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A3/images/jazz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A3/images/model.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A3/images/music_gen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A3/images/music_generation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A3/inference_code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A3/midi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A3/music_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A3/outputs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A3/preprocess.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A3/qa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1_answer/C5W1A3/test_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/C5W2A1/Operations_on_word_vectors_v2a.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/C5W2A1/generateTestCases.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/C5W2A1/images/1-hot-vector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/C5W2A1/images/cosine_sim.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/C5W2A1/images/equalize10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/C5W2A1/images/lookup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/C5W2A1/images/neutral.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/C5W2A1/images/neutralize.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/C5W2A1/images/neutralize_kiank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/C5W2A1/w2v_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/C5W2A2/Emoji_v3a.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/C5W2A2/emo_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/C5W2A2/generateTestCases.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/C5W2A2/images/data_set.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/C5W2A2/images/dataset_kiank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/C5W2A2/images/emb_kiank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/C5W2A2/images/embedding1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/C5W2A2/images/emo_model.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/C5W2A2/images/emojifier-v2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/C5W2A2/images/emojifierv1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/C5W2A2/images/emojify_model.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/C5W2A2/images/emojiss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/C5W2A2/images/image_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/C5W2A2/images/woebot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/C5W2A2/test_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/notes/C5_W2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/q1-nlp-and-word-embeddings/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/q1-nlp-and-word-embeddings/ss1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/q1-nlp-and-word-embeddings/ss2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/q1-nlp-and-word-embeddings/ss3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/q1-nlp-and-word-embeddings/ss4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/winequality-red.csv" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;harryng0312&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/harryng0312/learn-ml.git",
+    "accountId": "a5cd2a66-735d-4e08-bfe8-bb380cb75f73"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2uDW1MBUoDFbhgdyCahdnrGObfx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/hiepnq/Working/training/python/learn-ml",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Deeplearning" />
+      <recent name="$PROJECT_DIR$/MachineLearning" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PY-243.25659.43" />
+        <option value="bundled-python-sdk-181015f7ab06-4df51de95216-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.25659.43" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af375678-575d-4b0b-8b92-523086995afd" name="Changes" comment="" />
+      <created>1708962278747</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708962278747</updated>
+      <workItem from="1708962279985" duration="143000" />
+      <workItem from="1741783409345" duration="544000" />
+      <workItem from="1741792460906" duration="6088000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
