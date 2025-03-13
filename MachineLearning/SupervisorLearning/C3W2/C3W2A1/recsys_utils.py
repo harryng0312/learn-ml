@@ -14,32 +14,32 @@ def normalizeRatings(Y, R):
     Ynorm = Y - np.multiply(Ymean, R) 
     return(Ynorm, Ymean)
 
-def load_precalc_params_small():
+def load_precalc_params_small(prefix):
 
-    file = open('data/small_movies_X.csv', 'rb')
+    file = open(f'{prefix}/data/small_movies_X.csv', 'rb')
     X = loadtxt(file, delimiter = ",")
 
-    file = open('data/small_movies_W.csv', 'rb')
+    file = open(f'{prefix}/data/small_movies_W.csv', 'rb')
     W = loadtxt(file,delimiter = ",")
 
-    file = open('data/small_movies_b.csv', 'rb')
+    file = open(f'{prefix}/data/small_movies_b.csv', 'rb')
     b = loadtxt(file,delimiter = ",")
     b = b.reshape(1,-1)
     num_movies, num_features = X.shape
     num_users,_ = W.shape
     return(X, W, b, num_movies, num_features, num_users)
     
-def load_ratings_small():
-    file = open('data/small_movies_Y.csv', 'rb')
+def load_ratings_small(prefix):
+    file = open(f'{prefix}/data/small_movies_Y.csv', 'rb')
     Y = loadtxt(file,delimiter = ",")
 
-    file = open('data/small_movies_R.csv', 'rb')
+    file = open(f'{prefix}/data/small_movies_R.csv', 'rb')
     R = loadtxt(file,delimiter = ",")
     return(Y,R)
 
-def load_Movie_List_pd():
+def load_Movie_List_pd(prefix):
     """ returns df with and index of movies in the order they are in in the Y matrix """
-    df = pd.read_csv('data/small_movie_list.csv', header=0, index_col=0, delimiter=',', quotechar='"')
+    df = pd.read_csv(f'{prefix}/data/small_movie_list.csv', header=0, index_col=0, delimiter=',', quotechar='"')
     mlist = df["title"].to_list()
     return(mlist, df)
 
