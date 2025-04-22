@@ -4,3 +4,8 @@
 **/.hidden
 **/.hidden.save
 **/.DS_Store
+**/.idea
+**/__pycache__
+**/**.h5
+**/.pytest_cache
+**/models
