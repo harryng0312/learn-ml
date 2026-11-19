@@ -1,11 +1,93 @@
-**/*.zip
-**/*.rar
-**/.vscode
+# ---- Secrets (KHÔNG commit) ----
+.env
+.env.*
+apikey.txt
+*apikey*
+*.pem
+*.key
+
+# ---- OS / editor ----
+.DS_Store
+.vscode/
+.idea/
+
+# ---- Python / Jupyter ----
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# ---- Sync-conflict copies (Syncthing/Dropbox) ----
+*-harryng-mbp*
+
+# ---- Archives (tải lại được từ Coursera) ----
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+*.gz
+
+# ---- Model weights & checkpoints ----
+*.h5
+*.keras
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+*.ckpt
+*.pb
+*.mat
+*.data-*
+*.index
+
+# ---- Dữ liệu nặng / binary ----
+*.arrow
+*.npz
+*.npy
+*.pkl
+*.pickle
+*.p
+*.mp4
+*.mp3
+*.wav
+*.jsonl
+glove*.txt
+Deeplearning/**/pretrained-model/
+NLP/**/tydiqa_data/
+NLP/**/aclImdb/
+NLP/NN/C3W3_Assignment/tf/questions.csv
+NLP/NN/C4W3_Assignment/tf/data/train-v2.0.json
+
+# ---- Tài liệu giảng dạy (PDF) ----
+*.pdf
+
+# ---- Tài nguyên đi kèm bài tập Coursera (tải lại được) ----
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.PNG
+*.JPG
+**/data/
+# ...nhưng giữ dữ liệu của bạn tự tạo:
+!practise-ml/data/
+!pytorch/**/data/
+
+# ---- Còn sót ----
+*.m4v
+events.out.tfevents.*
+NLP/NN/C4W1_Assignment/tf/por-eng/
+
+# ---- Gộp từ .gitignore của remote ----
 **/.hidden
 **/.hidden.save
-**/.DS_Store
-**/.idea
-**/__pycache__
-**/**.h5
 **/.pytest_cache
 **/models
+
+# ---- Notebook đang hardcode API key — sửa để đọc từ .env rồi mới bỏ dòng này ----
+harness/langchain/first_note.ipynb
+harness/langchain/second_note.ipynb
