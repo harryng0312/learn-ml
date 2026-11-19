@@ -1,0 +1,65 @@
+[project]
+name = "learn-ml"
+version = "0.1.0"
+description = "Tự học ML / DL / NLP / PyTorch / LLM"
+# TensorFlow 2.17 (bài Coursera) hỗ trợ tới Python 3.12; giữ 3.11 như môi trường conda cũ.
+requires-python = ">=3.11,<3.13"
+
+# Lõi dùng chung cho mọi notebook
+dependencies = [
+    "numpy>=1.26,<2",      # TensorFlow 2.17 yêu cầu numpy < 2
+    "pandas",
+    "scipy",
+    "scikit-learn",
+    "matplotlib",
+    "pillow",
+    "h5py",
+    "tqdm",
+    "python-dotenv",       # đọc API key từ .env thay vì hardcode trong notebook
+    "ipykernel",
+    "ipywidgets",
+]
+
+[dependency-groups]
+# Hướng học mới: PyTorch (Apple Silicon dùng backend MPS có sẵn trong wheel)
+torch = [
+    "torch",
+    "torchvision",
+    "tensorboard",
+]
+
+# Bài tập Coursera cũ (MachineLearning/, Deeplearning/, week1/, week2/)
+tf = [
+    "tensorflow>=2.17,<2.18",
+    "tensorflow-metal; sys_platform == 'darwin' and platform_machine == 'arm64'",
+]
+
+# Phụ trợ cho bài tập NLP / RNN của Coursera
+course = [
+    "nltk",
+    "termcolor",
+    "emoji",
+    "faker",
+    "babel",
+    "tabulate",
+    "sacrebleu",
+    "imageio",
+    "music21",
+    "mido",
+    "pydub",
+]
+
+# LLM / RAG / Agent (harness/, lộ trình AI Engineer)
+llm = [
+    "transformers",
+    "datasets",
+    "langchain",
+    "langchain-community",
+    "langchain-openai",
+    "langchain-huggingface",
+    "langgraph",
+]
+
+[tool.uv]
+package = false            # đây là thư mục học, không phải package để build
+default-groups = ["torch", "tf", "course", "llm"]   # `uv sync` cài tất cả

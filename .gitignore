@@ -75,7 +75,7 @@ NLP/NN/C4W3_Assignment/tf/data/train-v2.0.json
 **/data/
 # ...nhưng giữ dữ liệu của bạn tự tạo:
 !practise-ml/data/
-!pytorch/**/data/
+!pytorch_lab/**/data/
 
 # ---- Còn sót ----
 *.m4v
